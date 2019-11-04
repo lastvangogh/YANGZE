@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\protobuf">
+      <UniqueIdentifier>{3f4e9a9b-6297-4b67-92ca-88d4fd97b453}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\protobuf">
+      <UniqueIdentifier>{5f3c0f63-b583-4462-aecd-8c2d3958daf4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\ServiceDiscovery.pb.cc">
+      <Filter>源文件\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\SecuritySourceType.pb.cc">
+      <Filter>源文件\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\MessageHeader.pb.cc">
+      <Filter>源文件\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\MessageBody.pb.cc">
+      <Filter>源文件\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\MDTransaction.pb.cc">
+      <Filter>源文件\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\MDSubscribe.pb.cc">
+      <Filter>源文件\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\MDStock.pb.cc">
+      <Filter>源文件\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\MDSpot.pb.cc">
+      <Filter>源文件\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\MDSimpleTick.pb.cc">
+      <Filter>源文件\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\MDRate.pb.cc">
+      <Filter>源文件\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\MDQuote.pb.cc">
+      <Filter>源文件\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\MDQuery.pb.cc">
+      <Filter>源文件\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\MDPlayback.pb.cc">
+      <Filter>源文件\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\MDOrder.pb.cc">
+      <Filter>源文件\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\MDOption.pb.cc">
+      <Filter>源文件\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\MDIndex.pb.cc">
+      <Filter>源文件\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\MDFuture.pb.cc">
+      <Filter>源文件\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\MDFund.pb.cc">
+      <Filter>源文件\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\MDForex.pb.cc">
+      <Filter>源文件\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\MDETFBasicInfo.pb.cc">
+      <Filter>源文件\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\MDBond.pb.cc">
+      <Filter>源文件\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\MDBasicInfo.pb.cc">
+      <Filter>源文件\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\MarketData.pb.cc">
+      <Filter>源文件\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\Login.pb.cc">
+      <Filter>源文件\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\InsightErrorContext.pb.cc">
+      <Filter>源文件\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\ESecurityType.pb.cc">
+      <Filter>源文件\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\ESecurityIDSource.pb.cc">
+      <Filter>源文件\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\EMessageType.pb.cc">
+      <Filter>源文件\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\EMDTickLevel.pb.cc">
+      <Filter>源文件\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\EMDPeriodType.pb.cc">
+      <Filter>源文件\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\EMarketDataType.pb.cc">
+      <Filter>源文件\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\DynamicPacket.pb.cc">
+      <Filter>源文件\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\ADVwap.pb.cc">
+      <Filter>源文件\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\ADVolumeByPrice.pb.cc">
+      <Filter>源文件\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\ADUpsDownsAnalysis.pb.cc">
+      <Filter>源文件\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\ADTwap.pb.cc">
+      <Filter>源文件\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\ADOrderbookSnapshotWithTick.pb.cc">
+      <Filter>源文件\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\ADOrderbookSnapshot.pb.cc">
+      <Filter>源文件\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\ADKLine.pb.cc">
+      <Filter>源文件\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\ADIndicatorsRanking.pb.cc">
+      <Filter>源文件\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\ADFundFlowAnalysis.pb.cc">
+      <Filter>源文件\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\MDFIQuote.pb.cc">
+      <Filter>源文件\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\ADChipDistribution.pb.cc">
+      <Filter>源文件\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\MDWarrant.pb.cc">
+      <Filter>源文件\protobuf</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseFunction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InsightHandle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\ADFundFlowAnalysis.pb.h">
+      <Filter>头文件\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\ADIndicatorsRanking.pb.h">
+      <Filter>头文件\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\ADKLine.pb.h">
+      <Filter>头文件\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\ADOrderbookSnapshot.pb.h">
+      <Filter>头文件\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\ADOrderbookSnapshotWithTick.pb.h">
+      <Filter>头文件\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\ADTwap.pb.h">
+      <Filter>头文件\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\ADUpsDownsAnalysis.pb.h">
+      <Filter>头文件\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\ADVolumeByPrice.pb.h">
+      <Filter>头文件\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\ADVwap.pb.h">
+      <Filter>头文件\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\DynamicPacket.pb.h">
+      <Filter>头文件\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\EMarketDataType.pb.h">
+      <Filter>头文件\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\EMDPeriodType.pb.h">
+      <Filter>头文件\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\EMDTickLevel.pb.h">
+      <Filter>头文件\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\EMessageType.pb.h">
+      <Filter>头文件\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\ESecurityIDSource.pb.h">
+      <Filter>头文件\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\ESecurityType.pb.h">
+      <Filter>头文件\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\InsightErrorContext.pb.h">
+      <Filter>头文件\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\Login.pb.h">
+      <Filter>头文件\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\MarketData.pb.h">
+      <Filter>头文件\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\MDBasicInfo.pb.h">
+      <Filter>头文件\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\MDBond.pb.h">
+      <Filter>头文件\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\MDETFBasicInfo.pb.h">
+      <Filter>头文件\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\MDForex.pb.h">
+      <Filter>头文件\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\MDFund.pb.h">
+      <Filter>头文件\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\MDFuture.pb.h">
+      <Filter>头文件\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\MDIndex.pb.h">
+      <Filter>头文件\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\MDOption.pb.h">
+      <Filter>头文件\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\MDOrder.pb.h">
+      <Filter>头文件\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\MDPlayback.pb.h">
+      <Filter>头文件\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\MDQuery.pb.h">
+      <Filter>头文件\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\MDQuote.pb.h">
+      <Filter>头文件\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\MDRate.pb.h">
+      <Filter>头文件\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\MDSimpleTick.pb.h">
+      <Filter>头文件\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\MDSpot.pb.h">
+      <Filter>头文件\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\MDStock.pb.h">
+      <Filter>头文件\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\MDSubscribe.pb.h">
+      <Filter>头文件\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\MDTransaction.pb.h">
+      <Filter>头文件\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\MessageBody.pb.h">
+      <Filter>头文件\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\MessageHeader.pb.h">
+      <Filter>头文件\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\SecuritySourceType.pb.h">
+      <Filter>头文件\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\ServiceDiscovery.pb.h">
+      <Filter>头文件\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\ADChipDistribution.pb.h">
+      <Filter>头文件\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\MDFIQuote.pb.h">
+      <Filter>头文件\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\MDWarrant.pb.h">
+      <Filter>头文件\protobuf</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

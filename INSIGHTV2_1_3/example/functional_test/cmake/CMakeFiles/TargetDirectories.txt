@@ -1,0 +1,3 @@
+/home/zhangzhuo/Downloads/build/example/functional_test/cmake/CMakeFiles/rebuild_cache.dir
+/home/zhangzhuo/Downloads/build/example/functional_test/cmake/CMakeFiles/functional_test.dir
+/home/zhangzhuo/Downloads/build/example/functional_test/cmake/CMakeFiles/edit_cache.dir
